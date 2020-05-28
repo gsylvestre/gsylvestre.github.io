@@ -79,10 +79,7 @@ section#exp {
 	background-color: rgba(17, 60, 99, 1);
 
 }
-section#languages, 
-section#formations {
-	display: none;
-}
+
 section#competences {
 	background-color: rgba(232, 185, 32, 1); 
 	color: rgb(27, 22, 4); 
@@ -262,13 +259,13 @@ p.small {
 	margin-right: 0.8rem;
 }
 
-@media screen and (min-width: 400px){
+@media screen, print and (min-width: 400px){
 	.refs > li > span:nth-child(2) {
 		display: table-cell;
 	}
 }
 
-@media screen and (min-width: 600px){
+@media screen, print and (min-width: 600px){
 	html {
 		font-size: 16px;
 	}
