@@ -259,13 +259,13 @@ p.small {
 	margin-right: 0.8rem;
 }
 
-@media screen, print and (min-width: 400px){
+@media all and (min-width: 400px){
 	.refs > li > span:nth-child(2) {
 		display: table-cell;
 	}
 }
 
-@media screen, print and (min-width: 600px){
+@media all and (min-width: 600px){
 	html {
 		font-size: 16px;
 	}
